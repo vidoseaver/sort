@@ -1,5 +1,6 @@
-#Insert Sort
-###Ruby
+# Insert Sort
+
+### Ruby
   I went ahead and threw the sort into a class for ease of testing. In order to run the tests you need to have ruby and the
   testing framework RSpec installed on your machine. From the root of the directory run 
   
