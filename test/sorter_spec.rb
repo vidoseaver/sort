@@ -12,18 +12,6 @@ RSpec.describe Sorter do
     context "instance methods" do
       list = [4,2]
       sorter = Sorter.new(list)
-      describe "larger_number" do
-        it "returns the larger of the two numbers" do
-            expect(sorter.larger_number(4,2)).to eq 4
-        end
-        it "works if the numbers are reversed" do
-          expect(sorter.larger_number(2,4)).to eq 4
-        end
-
-        it "it returns the number if they are equal" do
-          expect(sorter.larger_number(4,4)).to eq 4
-        end
-      end
       describe "insert_sort" do
         it "returns an array" do
           expect(sorter.insert_sort.class).to eq Array
